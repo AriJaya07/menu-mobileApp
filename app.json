@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "myApp",
+    "name": "My Recipe Book",
     "slug": "myApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,16 +16,25 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.arijaya.myrecipebook"
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.arijaya.myrecipebook"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "522ba601-2f78-4676-b588-9c6386c0555d"
+      }
     }
   }
 }
